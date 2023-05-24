@@ -1,0 +1,163 @@
+body {
+  padding: 0 30px;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Arial", sans-serif;
+  color: #222222;
+
+  background: #ffffff url("./img/Image.png") no-repeat top center;
+}
+
+.header {
+    border-bottom: 1px solid #E5E5E5;
+    padding: 25px 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px 50px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.logo a {
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.logo:hover a{
+    border-bottom: 2px solid red;
+}
+
+.menu {
+    margin-left: 65%;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu-item {
+    margin-right: 30px;
+}
+
+.menu-item a {
+    font-size: 15px;
+    color: #030305;
+    text-decoration: none;
+}
+
+.menu-item a:hover {
+    border-bottom: 2px solid red;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 42px;
+  font-family: "Verdana", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: normal;
+}
+
+a {
+  color: #0099ef;
+  text-decoration: underline;
+}
+
+.avatar-container{
+    max-width: 100px;
+    display: block; 
+    margin: auto;
+}
+
+.avatar-container:hover img{
+    transform: scale(1.3);
+}
+
+.avatar-container img{
+    vertical-align: bottom;
+    transition: all .3s;
+    padding-bottom: 10px;
+}
+
+.avatar {
+  border-radius: 10%;
+  font-display: center;
+}
+
+.blog-navigation {
+  margin-bottom: 30px;
+  padding: 20px;
+
+  background-color: #4470c4;
+  border: 5px solid #2d508f;
+
+  color: #ffffff;
+}
+
+.blog-navigation h2 {
+  margin-top: 0;
+}
+
+.blog-navigation ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.blog-navigation li {
+  margin-bottom: 5px;
+}
+
+.blog-navigation a {
+  color: #ffffff;
+}
+
+.section a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.skills dd {
+  margin: 0;
+  margin-bottom: 10px;
+  background-color: #e8e8e8;
+}
+
+.skills-level {
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #4470c4;
+}
+
+.kills-level-ok{
+    background-color: rgb(255,0,0);
+}
+
+.skills-level-ok {
+  background-color: #47bb52;
+}
+
+.footer{
+    border-top: 3px solid #32a1ce;
+    padding-bottom: 20px;
+}
+
+footer {
+    font-size: 16px;
+    margin: 30px auto;
+    bottom: 36px;
+}
